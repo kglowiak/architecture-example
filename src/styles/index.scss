@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import 'variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'RobotoSlab', serif;
+  background: $white;
+  min-width: $minWidth;
+}
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+}

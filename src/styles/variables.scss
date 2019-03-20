@@ -1,0 +1,31 @@
+// DEVICE SIZES //
+$minWidth: 320px;
+
+// COLORS //
+$white: #ffffff;
+$alabaster: #f9f9f9;
+$wildSand: #f4f4f4;
+$concrete: #f2f2f2;
+$alto: #dddddd;
+$mercury: #e4e4e4;
+$dustyGray: #999999;
+$doveGray: #666666;
+$black: #000000;
+$purple: #9c27b0;
+$purpleLight: #ab47bc;
+$purpleDark: #8e24aa;
+
+$colors: (
+  white: $white,
+  alabaster: $alabaster,
+  wildSand: $wildSand,
+  concrete: $concrete,
+  alto: $alto,
+  mercury: $mercury,
+  dustyGray: $dustyGray,
+  doveGray: $doveGray,
+  black: $black,
+  purple: $purple,
+  purpleLight: $purpleLight,
+  purpleDark: $purpleDark,
+);
